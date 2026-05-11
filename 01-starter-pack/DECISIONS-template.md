@@ -108,6 +108,30 @@ Any deployment, migration, monitoring, or rollback concerns:
 
 ---
 
+### Decision Review Requirement
+
+Before finalizing major decisions, run the proposal through:
+
+- `mattpocock/grill-me`
+- or `mattpocock/grill-me-with-docs`
+
+Use `grill-me-with-docs` when repository documentation, architecture context, or historical decisions are important to evaluating the proposal.
+
+The goal is to aggressively challenge:
+
+- weak assumptions
+- hidden complexity
+- maintenance burden
+- operational risk
+- scope creep
+- fake scalability
+- unclear ownership
+- architectural inconsistency
+
+Document important findings from the review inside the decision entry.
+
+---
+
 # What Should Be Logged
 
 Log:
