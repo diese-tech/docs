@@ -67,6 +67,7 @@ Reusable prompts for Claude, Codex, audits, bug fixes, and documentation generat
 - `codex-bugfix.md`
 - `codex-docs-generation.md`
 - `codebase-walkthrough-prompt.md`
+- `production-readiness-audit.md`
 
 ### `06-decision-rubrics/`
 
